@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media (max-width:1440px) {
+    body {
+        background: hsl(204, 43%, 93%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    h2 {
+        color: hsl(179, 62%, 43%);
+        margin-bottom: 1.25em;
+    }
+    
+    p {
+        color: rgb(235, 235, 235);
+        font-size: 16px;
+    }
+    
+    span {
+        color: rgb(212, 208, 208);
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    
+    button {
+        background: hsl(71, 73%, 54%);
+        color: white;
+        width: 240px;
+        padding: 0.9375em;
+        border: none;
+        border-radius: 5px;
+        margin-top: 1.5625em;
+        cursor: pointer;
+        box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
+        margin-top: 40px;
+    }
+    
+    .day {
+        color: hsl(71, 73%, 54%);
+        margin-bottom: 0.9375em;
+        font-weight: 700;
+    }
+    .gain-txt {
+        color: hsl(218, 22%, 67%);
+        width: 550px;
+        line-height: 1.5;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .white-bg {
+        background: white;
+        padding: 1.875em;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .flex-content {
+        display: flex;
+    }
+    .first-flex {
+        background: hsl(179, 62%, 43%);
+        width: 50%;
+        padding: 1.875em;
+        border-radius: 0 0 0 10px;
+    }
+    .monthly {
+        font-weight: 700;
+        margin-bottom: 1.25em;
+    }
+    .dollar {
+        font-size: 30px;
+        font-weight: 700;
+        display: inline-block;
+    }
+    .full-access {
+        margin-top: 1.875em;
+    }
+    
+    
+    .second-flex {
+        background: hsla(179, 42%, 50%, 0.87);
+        width: 50%;
+        padding: 1.875em;
+        border-radius: 0 0 10px 0;
+    }
+    .line-txt {
+        line-height: 1.5;
+    }
+    
+    .attribution { font-size: 11px; text-align: center; color: hsla(179, 82%, 59%, 0.87); margin-top: 1.875em;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+@media (max-width:375px) {
+    body {
+        background: hsl(204, 43%, 93%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    h2 {
+        color: hsl(179, 62%, 43%);
+        margin-bottom: 1.25em;
+    }
+    
+    p {
+        color: rgb(235, 235, 235);
+        font-size: 16px;
+    }
+    
+    span {
+        color: rgb(212, 208, 208);
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    
+    button {
+        background: hsl(71, 73%, 54%);
+        color: white;
+        width: 240px;
+        padding: 0.9375em;
+        border: none;
+        border-radius: 5px;
+        margin-top: 2.875em;
+        margin-left: 1.25em;
+        cursor: pointer;
+        box-shadow: 0 10px 10px rgb(0,0,0, 0.2);
+    }
+    
+    .day {
+        color: hsl(71, 73%, 54%);
+        margin-bottom: 0.9375em;
+        font-weight: 700;
+    }
+    .gain-txt {
+        color: hsl(218, 22%, 67%);
+        width: 350px;
+        line-height: 2;
+        padding-right: 1.875em;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30em;
+        width: 90%;
+    }
+    
+    .white-bg {
+        background: white;
+        padding: 1.875em 1em;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+    }
+    
+    .flex-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .first-flex {
+        background: hsl(179, 62%, 43%);
+        width: 100%;
+        padding: 1.875em;
+        border-radius: 0 0 0 0;
+    }
+    .monthly {
+        font-weight: 700;
+        margin-bottom: 1.25em;
+    }
+    .dollar {
+        font-size: 30px;
+        font-weight: 700;
+        display: inline-block;
+    }
+    .full-access {
+        margin-top: 1.875em;
+    }
+    
+    
+    .second-flex {
+        background: hsla(179, 42%, 50%, 0.87);
+        width: 100%;
+        padding: 1.875em;
+        border-radius: 0 0 10px 0;
+    }
+    .line-txt {
+        line-height: 1.5;
+    }
+    
+    .attribution { font-size: 11px; text-align: center; color: hsla(179, 82%, 59%, 0.87); margin-top: 1em; margin-bottom: 5em;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
